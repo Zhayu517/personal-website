@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         </div>
 
         <h1 className={styles.title}>
-        <a href="/">Zhaoyu Zhang</a>
+          <a href="/">Zhaoyu Zhang</a>
         </h1>
 
         <p className={styles.description}>
