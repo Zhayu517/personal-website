@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,8 @@ const Home: NextPage = () => {
         <meta name="description" content="Zhaoyu Zhang's personal website" />
         <link rel="icon" href="/Images/me.jpg" />
       </Head>
+
+      <Header />
 
       <main className={styles.main}>
 
@@ -25,12 +28,6 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           Get Connected with Me!
         </p>
-
-        <div className={styles.header}>
-          Projects
-          {/* Photos
-          About Me */}
-        </div>
 
       </main>
 

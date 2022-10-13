@@ -1,0 +1,64 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  /* border-top: 1px solid #eaeaea; */
+  justify-content: center;
+  align-items: center;
+
+  width: var(--full);
+  margin: auto;
+  padding-left: var(--geist-page-margin);
+  padding-right: var(--geist-page-margin);
+}
+  
+.header:hover {
+  /* border-top: 1px solid #eaeaea; */
+  color: gray;
+}
+
+.header_wrapper {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--geist-background);
+  z-index: 101;
+  min-height: var(--header-height);
+  transition: box-shadow .1s ease 0s,background-color .1s ease 0s;
+  box-shadow: var(--header-border-bottom);
+
+  background-color: transparent;
+  transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
+
+  box-shadow: none;
+  transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
+}
+
+.tablink {
+  background-color: transparent;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.tablink:hover {
+  border-top: 2px solid white;
+  color: gray;
+}
+
+.section_one {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
