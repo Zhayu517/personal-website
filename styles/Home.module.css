@@ -1,3 +1,24 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.header:hover {
+  color: gray;
+}
+
+.imageContainer {
+  display: flex;
+  padding: 2rem 0;
+  position: relative;
+}
+
 .container {
   padding: 0 2rem;
 }
@@ -29,7 +50,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #eaeaea;
   text-decoration: none;
 }
 
@@ -42,7 +63,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 5.0rem;
 }
 
 .title,
