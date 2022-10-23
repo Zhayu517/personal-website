@@ -5,7 +5,7 @@
   padding: 0px;
   margin: 0;
   width: 100%;
-  background-color: black;
+  background-color: transparent;
   
   display: flex;
   flex-direction: row;
@@ -42,7 +42,7 @@
 
 .tablink {
   background-color: transparent;
-  color: white;
+  color: black;
   float: left;
   border: none;
   outline: none;
@@ -52,7 +52,7 @@
 }
 
 .tablink:hover {
-  border-top: 2px solid white;
+  border-top: 2px solid black;
   color: gray;
 }
 
