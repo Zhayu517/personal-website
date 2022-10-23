@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 
@@ -17,17 +16,19 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
 
-        <div className={styles.imageContainer}>
-          <Image className={styles.imageContainer} src={'/images/me.jpg'} alt="My Image" width={500} height={500}/>
+        <div className={styles.contentContainer}>
+          <div className={styles.imageContainer}>
+            <img className={styles.image} src={'/images/me.jpg'} alt="My Image" />
+          </div>
+
+          <h1 className={styles.title}>
+            <a href="/">Zhaoyu Zhang</a>
+          </h1>
+
+          <p className={styles.description}>
+            Get Connected with Me!
+          </p>
         </div>
-
-        <h1 className={styles.title}>
-          <a href="/">Zhaoyu Zhang</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get Connected with Me!
-        </p>
 
       </main>
 
@@ -39,7 +40,7 @@ const Home: NextPage = () => {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/Images/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <img src="/Images/vercel.svg" alt="Vercel Logo" />
           </span>
         </a>
       </footer>
