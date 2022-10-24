@@ -39,7 +39,7 @@
   align-items: center;
 }
 
-.section_one {
+.section_one, .section_one a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,5 +47,19 @@
   color: black;
   font-size: 20px;
   font-weight: 1000;
+}
+
+.logoContainer {
+  width: 20px;
+  height: 20px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.logo {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: auto;
 }
   
