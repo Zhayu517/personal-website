@@ -8,10 +8,11 @@ function Header({}: Props) {
     // <div className={styles.header_wrapper} >
         <header className={styles.header}>
             <div className={styles.section_one}>
-              <a href="https://github.com/Zhayu517" class="###"></a>
-              <button type='button' className={styles.tablink}>Projects</button>
+              {/* <a href="https://github.com/Zhayu517" class="###"></a>
+              <button type='button' className={styles.tablink}>Projects</button> */}
               {/* <button type='button' className={styles.tablink}>Photos</button>
               <button type='button' className={styles.tablink}>About Me</button> */}
+              Zhaoyu Zhang
             </div>
 
             <div className={styles.section_two}>

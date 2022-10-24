@@ -5,40 +5,14 @@
   padding: 0px;
   margin: 0;
   width: 100%;
-  background-color: transparent;
+  /* background-color: rgb(32, 203, 255); */
   
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  height: 70px;
-
-  /* align-items: space-between; */
+  height: 100px;
 }
- 
-/* .header:hover {
-  color: gray;
-} */
-
-/* .header_wrapper {
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 100%;
-  background-color: var(--geist-background);
-  z-index: 101;
-  min-height: var(--header-height);
-  transition: box-shadow .1s ease 0s,background-color .1s ease 0s;
-  box-shadow: var(--header-border-bottom);
-
-  background-color: transparent;
-  transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
-
-  box-shadow: none;
-  transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
-} */
 
 .tablink {
   background-color: transparent;
@@ -48,7 +22,9 @@
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 1000;
+  /* font-family: Helvetica; */
 }
 
 .tablink:hover {
@@ -56,10 +32,20 @@
   color: gray;
 }
 
-.section_one, .section_two {
+.section_two {
+  margin: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+}
+
+.section_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  color: black;
+  font-size: 20px;
+  font-weight: 1000;
 }
   
