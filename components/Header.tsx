@@ -8,8 +8,6 @@ function Header({}: Props) {
         <div className={styles.section_one}>
           <div className={styles.logoContainer}>
             <a href="/">
-              {/* <pre> */}
-              {/* <div className={styles.asciiArt}> */}
                 Zhaoyu Zhang
                 {/* ##### #   #   #   #    #   ###<br/>  
                    #  #   #  # #  # #  #  #<br/>  
@@ -22,8 +20,6 @@ function Header({}: Props) {
                 #        ##   ###### #    # #####  #      #      
                 #       #  #  #    # #    # #      #      #      
                 ###### #    # #    # #    # #      ###### ###### */}
-              {/* </div> */}
-              {/* </pre> */}
             </a>
           </div>
         </div>
@@ -31,8 +27,6 @@ function Header({}: Props) {
         <div className={styles.section_two}>
             <div className={styles.linkContainer}>
               <a className={styles.linkItem} href="/">Projects</a>
-              {/* <h3>Hello</h3> */}
-            
               <a className={styles.linkItem} href="/cooking/">Cooking</a>
               <a className={styles.linkItem} href="/lifes/">Lifes</a> 
               <a className={styles.linkItem} href="/aboutme/">About Me</a>
