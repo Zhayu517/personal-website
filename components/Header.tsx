@@ -12,12 +12,12 @@ function Header({}: Props) {
               {/* <pre> */}
               {/* <div className={styles.asciiArt}> */}
                 Zhaoyu Zhang
-                {/* ##### #   #   #   #    #   ###  
-                   #  #   #  # #  # #  #  #
-                  #   ##### ##### #  # # #  ##
-                 #    #   # #   # #   ## #   #
-                ##### #   # #   # #    #   ### */}
-                {/* ###### #    #   ##   #    # #####  #      ######
+                {/* ##### #   #   #   #    #   ###<br/>  
+                   #  #   #  # #  # #  #  #<br/>  
+                  #   ##### ##### #  # # #  ##<br/>  
+                 #    #   # #   # #   ## #   #<br/>  
+                ##### #   # #   # #    #   ###<br/>  
+                ###### #    #   ##   #    # #####  #      ######
                 #       #  #   #  #  ##  ## #    # #      #      
                 #####    ##   #    # # ## # #    # #      ##### 
                 #        ##   ###### #    # #####  #      #      
@@ -30,10 +30,14 @@ function Header({}: Props) {
         </div>
 
         <div className={styles.section_two}>
-            <a href="/">Projects</a>
-            <a href="/cooking/">Cooking</a>
-            <a href="/lifes/">Lifes</a> 
-            <a href="/aboutme/">About Me</a>
+            <div className={styles.linkContainer}>
+              <a className={styles.linkItem} href="/">Projects</a>
+              {/* <h3>Hello</h3> */}
+            
+              <a className={styles.linkItem} href="/cooking/">Cooking</a>
+              <a className={styles.linkItem} href="/lifes/">Lifes</a> 
+              <a className={styles.linkItem} href="/aboutme/">About Me</a>
+            </div>
             <div className={styles.darkModeToggler} role="button" >
               <div className={styles.darkModeTogglerIcon}>
               </div>

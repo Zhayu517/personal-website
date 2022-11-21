@@ -24,6 +24,11 @@
   font-family: "Zen Tokyo Zoo", cursive;
 }
 
+@font-face {
+  font-family: 'Zen Tokyo Zoo'; /*a name to be used later*/
+  src: url('http://localhost:3000/fonts/ZenTokyoZoo-Regular.ttf'); /*URL to font*/
+}
+
 .logoContainer {
   font-family: "Zen Tokyo Zoo", cursive;
   margin: 0px 0px 0px 30px;
@@ -36,8 +41,9 @@
   padding: 0px 20px;
   color: black;
   text-decoration: none;
-  font-weight: 600;
-  font-family: "Baskerville";
+  font-weight: 500;
+  font-family: "Zen Tokyo Zoo", cursive;
+  text-transform: uppercase;
 }
 
 /* .asciiArt {
@@ -70,17 +76,50 @@
 
 } */
 
-.section_two a:hover::after {
+.linkContainer {
+  display: flex;
+  position: relative;
+}
+
+.linkItem {
+  position: relative;
+}
+
+.linkItem:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 10%;
+  background-color: #000;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkItem:hover:before {
+  visibility: visible;
+  width: 80%;
+}
+
+/* .linkItem {
+  border-bottom: 2px solid black;
+  transition: all 0.5s ease 0s;
+}
+
+.linkItem:hover {
+  border-bottom: 2px solid black;
+} */
+
+/* .linkContainer:hover::after {
   content: "";
   position: absolute;
   left: 0%;
   right: 0%;
   bottom: 0%;
   border: 1px solid black;
-  /* transition: all 0.5s ease 0s; */
-  /* margin: 0px auto; */
-  /* border-bottom: 1px solid black; */
-}
+  border-bottom: 2px solid black;
+} */
 
 .darkModeToggler {
   background-color: green;
