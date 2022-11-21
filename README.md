@@ -1,5 +1,13 @@
 # My Personal Website
 
+Source Code for [Not URL YET](https://zhaoyuzzhang.com/)
+
+Updated on 2022-11-08 
+
+![Screenshot on 2022-11-08](https://github.com/Zhayu517/personal-website/blob/main/public/Images/screenshot-221108.jpg)
+
+## Deployment
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Using Typescript, Javascript, Html, Css and Sass
@@ -37,8 +45,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 You can check [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Screenshots for Presenting
 
-Updated on 2022-11-08
-
-![Screenshot on 2022-11-08](https://github.com/Zhayu517/personal-website/blob/main/public/Images/screenshot-221108.jpg)
