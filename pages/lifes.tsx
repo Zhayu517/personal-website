@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import styles from '../styles/Lifes.module.css'
-
+import Footer from '../components/Footer'
 
 function Lifes({}) {
     return (
@@ -17,6 +17,8 @@ function Lifes({}) {
             <main className={styles.main}>
                 <h1>This Site is Under Development</h1>
             </main>
+
+            <Footer />
         </div>
     );
   }

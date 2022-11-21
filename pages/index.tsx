@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -40,18 +41,12 @@ const Home: NextPage = () => {
 
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <img src="/Images/vercel.svg" alt="Vercel Logo" />
-          </span>
-        </a>
-      </footer>
+      {/* <footer className={styles.footer}>
+        <div className={styles.footerContainer}>
+          All rights reserved © Zhaoyu Zhang 2022
+        </div>
+      </footer> */}
+      <Footer />
     </div>
   )
 }
