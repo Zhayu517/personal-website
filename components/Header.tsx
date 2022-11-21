@@ -2,6 +2,11 @@ import styles from '../styles/Header.module.css'
 
 type Props = {}
 
+// function darkModeChanger() {
+//   var element = document.body;
+//   element.classList.toggle("dark-mode");
+// }
+
 function Header({}: Props) {
   return (
     <header className={styles.header}>
@@ -9,11 +14,11 @@ function Header({}: Props) {
           <div className={styles.logoContainer}>
             <a href="/">
                 Zhaoyu Zhang
-                {/* ##### #   #   #   #    #   ###<br/>  
-                   #  #   #  # #  # #  #  #<br/>  
-                  #   ##### ##### #  # # #  ##<br/>  
-                 #    #   # #   # #   ## #   #<br/>  
-                ##### #   # #   # #    #   ###<br/>  
+                {/* ##### #   #   #   #    #   ###  
+                   #  #   #  # #  # #  #  # 
+                  #   ##### ##### #  # # #  ## 
+                 #    #   # #   # #   ## #   # 
+                ##### #   # #   # #    #   ###
                 ###### #    #   ##   #    # #####  #      ######
                 #       #  #   #  #  ##  ## #    # #      #      
                 #####    ##   #    # # ## # #    # #      ##### 
@@ -31,7 +36,8 @@ function Header({}: Props) {
               <a className={styles.linkItem} href="/lifes/">Lifes</a> 
               <a className={styles.linkItem} href="/aboutme/">About Me</a>
             </div>
-            <div className={styles.darkModeToggler} role="button" >
+            {/* <div className={styles.darkModeToggler} role="button" onClick={darkModeChanger()}> */}
+            <div className={styles.darkModeToggler} role="button">
               <div className={styles.darkModeTogglerIcon}>
               </div>
             </div>
