@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import styles from '../styles/Header.module.css'
 
 type Props = {}
@@ -7,23 +7,37 @@ function Header({}: Props) {
   return (
     <header className={styles.header}>
         <div className={styles.section_one}>
-          <a
-            href="./"
-            // target="_blank"
-            // rel="noopener noreferrer"
-          >
-            {/* TODO: */}
-            {/* <div className={styles.logoContainer}>
-              <img className={styles.logo} src="/images/me.jpg" alt="My Image" />
-            </div> */}
-            Zhaoyu Zhang
-          </a>
+          <div className={styles.logoContainer}>
+            <a href="/">
+              {/* <pre> */}
+              {/* <div className={styles.asciiArt}> */}
+                Zhaoyu Zhang
+                {/* ##### #   #   #   #    #   ###  
+                   #  #   #  # #  # #  #  #
+                  #   ##### ##### #  # # #  ##
+                 #    #   # #   # #   ## #   #
+                ##### #   # #   # #    #   ### */}
+                {/* ###### #    #   ##   #    # #####  #      ######
+                #       #  #   #  #  ##  ## #    # #      #      
+                #####    ##   #    # # ## # #    # #      ##### 
+                #        ##   ###### #    # #####  #      #      
+                #       #  #  #    # #    # #      #      #      
+                ###### #    # #    # #    # #      ###### ###### */}
+              {/* </div> */}
+              {/* </pre> */}
+            </a>
+          </div>
         </div>
 
         <div className={styles.section_two}>
-            <button type='button' className={styles.tablink}>Projects</button>
-            <button type='button' className={styles.tablink}>Photos</button>
-            <button type='button' className={styles.tablink}>About</button>
+            <a href="/">Projects</a>
+            <a href="/cooking/">Cooking</a>
+            <a href="/lifes/">Lifes</a> 
+            <a href="/aboutme/">About Me</a>
+            <div className={styles.darkModeToggler} role="button" >
+              <div className={styles.darkModeTogglerIcon}>
+              </div>
+            </div>
         </div>
     </header> 
   )

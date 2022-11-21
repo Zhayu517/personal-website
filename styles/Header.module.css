@@ -1,65 +1,106 @@
 .header {
+  font-family: "Ibarra Real Nova", serif;
   position: fixed;
-  top: 0;
-  left: 0;
-  padding: 0px;
-  margin: 0;
-  width: 100%;
-  /* background-color: rgb(32, 203, 255); */
   
+  padding: 0px 24px;
+  margin: 0px auto;
+  max-height: 60px;
   display: flex;
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
   flex-direction: row;
   justify-content: space-between;
-
-  height: 100px;
-}
-
-.tablink {
-  background-color: transparent;
-  color: black;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 20px;
-  font-weight: 1000;
-  /* font-family: Helvetica; */
-}
-
-.tablink:hover {
-  border-top: 2px solid black;
-  color: gray;
-}
-
-.section_two {
-  margin: 50px;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
-.section_one, .section_one a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
+.section_one {
+  margin: auto;
   color: black;
   font-size: 20px;
-  font-weight: 1000;
+  justify-items: flex-start;
+  flex: 1 1 0%;
+  font-family: "Zen Tokyo Zoo", cursive;
 }
 
 .logoContainer {
-  width: 20px;
-  height: 20px;
-  /* justify-content: center;
-  align-items: center; */
+  font-family: "Zen Tokyo Zoo", cursive;
+  margin: 0px 0px 0px 30px;
+  /* text-transform: uppercase; */
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  height: auto;
+.logoContainer a {
+  padding: 0px 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Baskerville";
+}
+
+/* .asciiArt {
+  font-family: monospace;
+  white-space: pre;
+} */
+
+.section_two {
+  margin: auto;
+  display: flex;
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+
+.section_two a {
+  color: black;
+  font-size: 10px;
+  padding: 0px 16px;
+  margin: 16px 0px;
+  text-decoration: none;
+  /* transition: all 0.5s ease 0s; */
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-family: "Baskerville";
+}
+
+/* .section_two :hover {
+
+} */
+
+.section_two a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  border: 1px solid black;
+  /* transition: all 0.5s ease 0s; */
+  /* margin: 0px auto; */
+  /* border-bottom: 1px solid black; */
+}
+
+.darkModeToggler {
+  background-color: green;
+  margin: auto 0px;
+  width: 30px;
+  height: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  padding: 2px;
+}
+
+.darkModeTogglerIcon {
+  background-color: black;
+  height: calc(100%);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
 }
   
