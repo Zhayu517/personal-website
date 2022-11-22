@@ -36,11 +36,10 @@ function Header({}: Props) {
               <a className={styles.linkItem} href="/lifes/">Lifes</a> 
               <a className={styles.linkItem} href="/aboutme/">About Me</a>
             </div>
-            {/* <div className={styles.darkModeToggler} role="button" onClick={darkModeChanger()}> */}
-            <div className={styles.darkModeToggler} role="button">
+            <button id="dark-mode-button" className={styles.darkModeToggler}>
               <div className={styles.darkModeTogglerIcon}>
               </div>
-            </div>
+            </button>
         </div>
     </header> 
   )

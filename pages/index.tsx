@@ -40,12 +40,6 @@ const Home: NextPage = () => {
         </div>
 
       </main>
-
-      {/* <footer className={styles.footer}>
-        <div className={styles.footerContainer}>
-          All rights reserved © Zhaoyu Zhang 2022
-        </div>
-      </footer> */}
       <Footer />
     </div>
   )

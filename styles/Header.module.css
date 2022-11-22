@@ -51,7 +51,6 @@
 .section_two {
   margin: inherit;
   display: flex;
-  /* margin-right: 20px; */
   justify-content: flex-end;
 }
 
@@ -98,7 +97,6 @@
 
 .darkModeToggler {
   margin: 47px 0px 0px 0px;
-  /* background-color: green; */
   width: 40px;
   height: 20px;
   border-radius: 12px;
@@ -111,6 +109,7 @@
   -webkit-box-pack: start;
   justify-content: flex-start;
   padding: 2px;
+  background-color: white;
 }
 
 .darkModeTogglerIcon {
