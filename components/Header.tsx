@@ -2,11 +2,6 @@ import styles from '../styles/Header.module.css'
 
 type Props = {}
 
-// function darkModeChanger() {
-//   var element = document.body;
-//   element.classList.toggle("dark-mode");
-// }
-
 function Header({}: Props) {
   return (
     <header className={styles.header}>
