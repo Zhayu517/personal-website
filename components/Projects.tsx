@@ -1,6 +1,5 @@
 import styles from '../styles/Projects.module.css'
 import Link from 'next/link'
-import Image from 'next/image'
 
 type Props = {}
 
@@ -9,7 +8,7 @@ function Projects({}: Props) {
     <main className={styles.main}>
         <div className={styles.contentContainer}>
             <div className={styles.imageContainer}>
-              <Image className={styles.image} src={'/images/me.jpg'} alt="My Image" />
+              <img className={styles.image} src={'/images/me.jpg'} alt="My Image" />
             </div>
 
             <h1 className={styles.title}>
