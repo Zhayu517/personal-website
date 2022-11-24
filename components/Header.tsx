@@ -1,4 +1,5 @@
 import styles from '../styles/Header.module.css'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -7,7 +8,7 @@ function Header({}: Props) {
     <header className={styles.header}>
         <div className={styles.section_one}>
           <div className={styles.logoContainer}>
-            <a href="/">
+            <Link href="/">
                 Zhaoyu Zhang
                 {/* ##### #   #   #   #    #   ###  
                    #  #   #  # #  # #  #  # 
@@ -20,16 +21,16 @@ function Header({}: Props) {
                 #        ##   ###### #    # #####  #      #      
                 #       #  #  #    # #    # #      #      #      
                 ###### #    # #    # #    # #      ###### ###### */}
-            </a>
+            </Link>
           </div>
         </div>
 
         <div className={styles.section_two}>
             <div className={styles.linkContainer}>
-              <a className={styles.linkItem} href="/">Projects</a>
-              <a className={styles.linkItem} href="/cooking/">Cooking</a>
-              <a className={styles.linkItem} href="/lifes/">Lifes</a> 
-              <a className={styles.linkItem} href="/aboutme/">About Me</a>
+              <Link className={styles.linkItem} href="/">Projects</Link>
+              <Link className={styles.linkItem} href="/cooking/">Cooking</Link>
+              <Link className={styles.linkItem} href="/lifes/">Lifes</Link> 
+              <Link className={styles.linkItem} href="/aboutme/">About Me</Link>
             </div>
             <button id="dark-mode-button" className={styles.darkModeToggler}>
               <div className={styles.darkModeTogglerIcon}>

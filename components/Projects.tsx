@@ -1,4 +1,5 @@
 import styles from '../styles/Projects.module.css'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -11,7 +12,7 @@ function Projects({}: Props) {
             </div>
 
             <h1 className={styles.title}>
-                <a href="/">Zhaoyu Zhang</a>
+                <Link href="/">Zhaoyu Zhang</Link>
             </h1>
 
             <p className={styles.description}>
