@@ -4,7 +4,7 @@ Source Code for [URL](https://zhayu517.github.io/personal-website/) (Using Githu
 
 Updated on 2022-11-08 
 
-![Screenshot on 2022-11-08](https://github.com/Zhayu517/personal-website/blob/main/public/Images/screenshot-221125.jpg)
+![Screenshot on 2022-11-25](https://github.com/Zhayu517/personal-website/blob/main/public/Images/screenshot-221125.png)
 
 ## Deployment
 
