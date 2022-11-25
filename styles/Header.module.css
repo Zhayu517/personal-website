@@ -29,7 +29,7 @@
 
 @font-face {
   font-family: 'Zen Tokyo Zoo'; /*a name to be used later*/
-  src: url('http://localhost:3000/fonts/ZenTokyoZoo-Regular.ttf'); /*URL to font*/
+  src: url('../public/fonts/ZenTokyoZoo-Regular.ttf'); /*URL to font*/
 }
 
 .logoContainer {
