@@ -1,6 +1,6 @@
 # My Personal Website (Under Development)
 
-Source Code for [Not URL YET](https://zhaoyuzzhang.com/)
+Source Code for [URL](https://zhayu517.github.io/personal-website/) (Using Github Pages for now, will be online after completing)
 
 Updated on 2022-11-08 
 
