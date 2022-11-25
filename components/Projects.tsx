@@ -8,7 +8,7 @@ function Projects({}: Props) {
     <main className={styles.main}>
         <div className={styles.contentContainer}>
             <div className={styles.imageContainer}>
-              <img className={styles.image} src={'/images/me.jpg'} alt="My Image" />
+              <img className={styles.image} src={'/personal-website/images/me.jpg'} alt="My Image" />
             </div>
 
             <h1 className={styles.title}>
