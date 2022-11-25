@@ -12,7 +12,7 @@ function Projects({}: Props) {
             </div>
 
             <h1 className={styles.title}>
-                <Link href="/">Zhaoyu Zhang</Link>
+                <a href="/">Zhaoyu Zhang</a>
             </h1>
 
             <p className={styles.description}>
