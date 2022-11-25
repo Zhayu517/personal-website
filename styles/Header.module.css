@@ -74,11 +74,11 @@
   margin: 30px 0px 0px 0px;
 }
 
-.linkItem {
+.linkContainer a {
   position: relative;
 }
 
-.linkItem:before {
+.linkContainer a:before {
   content: "";
   position: absolute;
   width: 0;
@@ -90,7 +90,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.linkItem:hover:before {
+.linkContainer a:hover:before {
   visibility: visible;
   width: 80%;
 }

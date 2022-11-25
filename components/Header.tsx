@@ -27,10 +27,10 @@ function Header({}: Props) {
 
         <div className={styles.section_two}>
             <div className={styles.linkContainer}>
-              <a className={styles.linkItem} href="/">Projects</a>
-              <a className={styles.linkItem} href="/cooking/">Cooking</a>
-              <a className={styles.linkItem} href="/lifes/">Lifes</a> 
-              <a className={styles.linkItem} href="/aboutme/">About Me</a>
+              <Link href="/">Projects</Link>
+              <Link href="/cooking/">Cooking</Link>
+              <Link href="/lifes/">Lifes</Link> 
+              <Link href="/aboutme/">About Me</Link>
             </div>
             <button id="dark-mode-button" className={styles.darkModeToggler}>
               <div className={styles.darkModeTogglerIcon}>
